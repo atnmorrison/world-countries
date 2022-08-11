@@ -60,13 +60,13 @@ export default function Country({countryData}) {
     
     <h2>Locales</h2>
     <div>
-    {countryData.locales.join(',')}<br />
+    {countryData.locales ? countryData.locales.join(',') : ''}<br />
     {countryData.default_locale} <br />
     </div>
     
     <h2>Languages</h2>
     <div>
-    {countryData.languages.join(',')} <br />
+    {countryData.languages ? countryData.languages.join(',') : '' } <br />
     </div>
 
     <h2>Geography</h2>
