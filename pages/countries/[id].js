@@ -60,8 +60,11 @@ export default function Country({countryData}) {
     
     <h2>Locales</h2>
     <div>
-    {countryData.locales ? countryData.locales.join(',') : ''}<br />
-    {countryData.default_locale} <br />
+
+    {countryData.locales.map((locale) => {
+      return (<span>{locale == countryData.default_locale ? <b>{locale}</b> : locale} </span>)
+    })} 
+
     </div>
     
     <h2>Languages</h2>
