@@ -28,6 +28,7 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
       </header>
+      <div><a href="https://www.npmjs.com/package/country-locale-map">https://www.npmjs.com/package/country-locale-map</a></div>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
