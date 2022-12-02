@@ -32,8 +32,13 @@ export async function getStaticPaths() {
 
 
 export default function Country({countryData}) {  
-
-  const flag = React.createElement(Flags[countryData.alpha2]);
+  
+  let flag;
+  if(Flags[countryData.alpha2]) {
+    flag = React.createElement(Flags[countryData.alpha2]);
+  } else {
+    flag = <div></div>
+  }
 
   return (
   <Layout>
