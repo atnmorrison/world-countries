@@ -6,10 +6,13 @@
     "start": "next start -p $PORT"
   },
   "dependencies": {
+    "country-flag-icons": "^1.5.5",
     "country-locale-map": "^1.8.11",
     "next": "latest",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
-  "cacheDirectories": [".next/cache"]
+  "cacheDirectories": [
+    ".next/cache"
+  ]
 }

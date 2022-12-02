@@ -1,14 +1,19 @@
+import React from 'react';
 import Layout from '../../components/layout';
 import styles from '../../components/layout.module.css';
 import { getAllCountryIds, getCountryData } from '../../lib/countries';
 import Head from 'next/head';
+import Flags from 'country-flag-icons/react/3x2';
+
 
 
 export async function getStaticProps({params}) {
     const countryData = getCountryData(params.id);
+
+
     return {
         props: {
-            countryData,
+            countryData
         },
     };
 }
@@ -22,13 +27,21 @@ export async function getStaticPaths() {
   };
 }
 
-export default function Country({countryData}) {
+
+
+
+
+export default function Country({countryData}) {  
+
+  const flag = React.createElement(Flags[countryData.alpha2]);
+
   return (
   <Layout>
      <Head>
         <title>{countryData.name}</title>
      </Head>
     <h1>{countryData.name}</h1>
+    {flag}
     <h2>
         Codes
     </h2>
