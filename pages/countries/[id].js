@@ -72,6 +72,11 @@ export default function Country({countryData}) {
     {countryData.languages ? countryData.languages.join(',') : '' } <br />
     </div>
 
+    <h2>Currency</h2>
+    <div>
+    {countryData.currency} <br />
+    </div>
+
     <h2>Geography</h2>
     <table className={styles.codes}>
         <tr>
