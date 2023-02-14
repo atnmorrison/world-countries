@@ -19,7 +19,7 @@ export default function Home({allCountries}) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>World Countries</title>
       </Head>
       <section className={utilStyles.headingMd}>
       </section>
