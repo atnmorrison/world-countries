@@ -71,6 +71,14 @@ export default function Country({countryData}) {
           <tr>
             <td><h3>Internet</h3></td>
             <td>{countryData.fips}</td>
+          </tr>
+          <tr>
+            <td>Latitude</td>
+            <td>{countryData.latitude}</td>
+          </tr>
+          <tr>
+            <td>Longitude</td>
+            <td>{countryData.longitude}</td>
           </tr>          
         </table>
     </div>

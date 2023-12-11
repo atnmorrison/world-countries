@@ -7,8 +7,9 @@
   },
   "dependencies": {
     "country-flag-icons": "^1.5.5",
-    "country-locale-map": "^1.8.15",
+    "country-locale-map": "^1.9.0",
     "next": "latest",
+    "nextjs": "^0.0.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "save": "^2.9.0"
