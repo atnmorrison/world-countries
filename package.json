@@ -17,5 +17,6 @@
   },
   "cacheDirectories": [
     ".next/cache"
-  ]
+  ],
+  "version": "0.0.1"
 }
