@@ -4,6 +4,7 @@ import styles from '../../components/layout.module.css';
 import { getAllCountryIds, getCountryData } from '../../lib/countries';
 import Head from 'next/head';
 import Flags from 'country-flag-icons/react/3x2';
+import Script from 'next/script';
 
 
 
@@ -44,6 +45,16 @@ export default function Country({countryData}) {
   <Layout>
      <Head>
         <title>{countryData.name}</title>
+        <Script
+          id="Absence-banner"
+          async
+          strategy="afterInteractive"
+          onError={(e) => {
+            console.error('Script failed to load', e);
+          }}
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4608494003373704`}
+          crossOrigin="anonymous"
+        />
      </Head>
     <h1>{countryData.name}</h1>
     {flag}

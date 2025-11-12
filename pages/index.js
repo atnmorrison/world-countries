@@ -36,6 +36,8 @@ export default function Home({allCountries}) {
             </li>
           ))}
         </ul>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4608494003373704"
+     crossorigin="anonymous"></script>
       </section>
 
     </Layout>
