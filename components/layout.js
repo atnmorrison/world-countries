@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import AdSlot from './AdSlot';
 
 const name = 'Scott Morrison';
 export const siteTitle = 'World Countries';
@@ -17,6 +18,8 @@ export default function Layout({ children, home }) {
           name="description"
           content="Example project using the Country Locale Map npm package"
         />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -29,7 +32,9 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
       </header>
       <div><a href="https://www.npmjs.com/package/country-locale-map">https://www.npmjs.com/package/country-locale-map</a></div>
+      <AdSlot slot="1234567890" />
       <main>{children}</main>
+      <AdSlot slot="0987654321" />
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
