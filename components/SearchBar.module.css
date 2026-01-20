@@ -1,0 +1,27 @@
+.searchContainer {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  transition: border-color 0.2s ease;
+  font-family: inherit;
+  margin-bottom: 1rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+.resultsCount {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  padding-left: 0.25rem;
+}

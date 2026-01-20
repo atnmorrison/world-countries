@@ -4,6 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import AdSlot from './AdSlot';
+import Footer from './Footer';
 
 const name = 'Scott Morrison';
 export const siteTitle = 'World Countries';
@@ -42,6 +43,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
