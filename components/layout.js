@@ -31,8 +31,11 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <h1 style={{ margin: 0, fontSize: '2.5rem', fontWeight: 800, background: 'linear-gradient(135deg, #60a5fa 0%, #93c5fd 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>World Countries</h1>
       </header>
-      <div><a href="https://www.npmjs.com/package/country-locale-map">https://www.npmjs.com/package/country-locale-map</a></div>
+      <a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer" className={styles.npmLink}>
+        country-locale-map on npm
+      </a>
       <AdSlot slot="1234567890" />
       <main>{children}</main>
       <AdSlot slot="0987654321" />
