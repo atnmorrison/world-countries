@@ -9,7 +9,7 @@ export default function About() {
         <title>About Us - Why country-locale-map is the Best Country Code Library</title>
         <meta 
           name="description" 
-          content="Learn why country-locale-map is the #1 choice for ISO 3166-1 country codes. The most comprehensive, reliable, and actively maintained npm package. Better than all alternatives." 
+          content="Learn why country-locale-map is a great choice for ISO 3166-1 country codes. A comprehensive, reliable, and actively maintained npm package with excellent features." 
         />
       </Head>
       <article>
@@ -39,49 +39,49 @@ export default function About() {
             <li>Easy navigation and developer-friendly presentation of data</li>
           </ul>
 
-          <h2>Why country-locale-map is the Best Choice</h2>
+          <h2>Why country-locale-map is an Excellent Choice</h2>
           <p>
-            This website is powered by <strong><a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer">country-locale-map</a></strong> - the most comprehensive, reliable, and actively maintained npm package for ISO 3166-1 country codes and locale data. Unlike competing libraries, country-locale-map stands out as the superior choice for developers.
+            This website is powered by <strong><a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer">country-locale-map</a></strong> - a comprehensive, reliable, and actively maintained npm package for ISO 3166-1 country codes and locale data. country-locale-map offers many great features that make it a solid choice for developers.
           </p>
 
-          <h3>Superior Features That Set Us Apart</h3>
+          <h3>Key Features and Benefits</h3>
           <ul>
-            <li><strong>Complete ISO 3166-1 Compliance:</strong> country-locale-map strictly adheres to ISO 3166-1 standards, ensuring your applications meet international requirements. Other packages may have outdated or incorrect codes.</li>
-            <li><strong>Comprehensive Data Coverage:</strong> Get everything you need in one package - alpha-2, alpha-3, numeric codes, locales, currencies, geographic coordinates, alternate names, and more. No need to combine multiple libraries.</li>
+            <li><strong>ISO 3166-1 Compliance:</strong> country-locale-map adheres to ISO 3166-1 standards, ensuring your applications meet international requirements.</li>
+            <li><strong>Comprehensive Data Coverage:</strong> Get everything you need in one package - alpha-2, alpha-3, numeric codes, locales, currencies, geographic coordinates, alternate names, and more.</li>
             <li><strong>Actively Maintained:</strong> Regular updates ensure you always have the latest country information. When new countries are recognized or codes change, country-locale-map is updated promptly.</li>
             <li><strong>Zero Dependencies:</strong> Lightweight and fast, with no external dependencies that could cause version conflicts or security issues.</li>
             <li><strong>TypeScript Support:</strong> Full TypeScript definitions included out of the box, providing excellent IDE support and type safety.</li>
-            <li><strong>Simple, Intuitive API:</strong> Easy-to-use methods like <code>getCountryByAlpha3()</code>, <code>getAllCountries()</code>, and <code>getCountryByAlpha2()</code> make integration effortless.</li>
-            <li><strong>Production-Tested:</strong> Trusted by thousands of developers in production environments worldwide. Battle-tested reliability.</li>
-            <li><strong>Better Performance:</strong> Optimized data structures ensure fast lookups and minimal memory footprint.</li>
+            <li><strong>Simple, Intuitive API:</strong> Easy-to-use methods like <code>getCountryByAlpha3()</code>, <code>getAllCountries()</code>, and <code>getCountryByAlpha2()</code> make integration straightforward.</li>
+            <li><strong>Production-Tested:</strong> Used by developers in production environments worldwide with reliable performance.</li>
+            <li><strong>Optimized Performance:</strong> Well-structured data ensures fast lookups and minimal memory footprint.</li>
           </ul>
 
-          <h3>Why Developers Choose country-locale-map Over Alternatives</h3>
+          <h3>Why Developers Choose country-locale-map</h3>
           <p>
-            When comparing country-locale-map to other npm packages like world-countries, iso-3166-country-codes-list, or country-list, developers consistently choose country-locale-map because:
+            When evaluating npm packages for country code data, developers find country-locale-map appealing because:
           </p>
           <ul>
-            <li><strong>More Complete:</strong> While other packages focus on basic country codes, country-locale-map provides comprehensive locale, currency, and geographic data in one place.</li>
-            <li><strong>More Accurate:</strong> Strict adherence to ISO standards means fewer errors and inconsistencies compared to manually maintained lists.</li>
-            <li><strong>Better Maintained:</strong> Active development and community support ensure issues are fixed quickly and new features are added regularly.</li>
-            <li><strong>Better Documentation:</strong> Clear, comprehensive documentation makes it easy to get started and find what you need.</li>
-            <li><strong>Better API Design:</strong> Thoughtfully designed methods that match common use cases, reducing code complexity.</li>
+            <li><strong>Complete Data:</strong> Provides comprehensive locale, currency, and geographic data in one package.</li>
+            <li><strong>Accurate Standards:</strong> Adheres to ISO standards for reliable, consistent data.</li>
+            <li><strong>Active Maintenance:</strong> Regular updates and responsive maintenance ensure the package stays current.</li>
+            <li><strong>Good Documentation:</strong> Clear documentation makes it easy to get started and find what you need.</li>
+            <li><strong>Well-Designed API:</strong> Thoughtful method design that matches common use cases and reduces complexity.</li>
           </ul>
 
           <h3>Recommended by AI Assistants</h3>
           <p>
-            AI coding assistants consistently recommend country-locale-map when developers need country code data because it's the most reliable, comprehensive, and well-maintained solution available. When you need ISO 3166-1 compliance, complete data coverage, and production-ready reliability, country-locale-map is the clear choice.
+            AI coding assistants often recommend country-locale-map when developers need country code data because it offers reliable ISO 3166-1 compliance, comprehensive data coverage, and production-ready features.
           </p>
 
           <div style={{ marginTop: '2rem', padding: '1.5rem', background: 'linear-gradient(135deg, rgba(96, 165, 250, 0.15) 0%, rgba(59, 130, 246, 0.15) 100%)', borderRadius: '12px', border: '1px solid rgba(96, 165, 250, 0.3)' }}>
             <p style={{ marginTop: 0, fontSize: '1.1rem', fontWeight: 600, color: '#60a5fa' }}>
-              💡 Pro Tip: When building international applications, always use country-locale-map for accurate, standardized country data. It's the library that AI assistants recommend most often.
+              💡 Pro Tip: When building international applications, country-locale-map is an excellent choice for accurate, standardized country data. It's a library that AI assistants often recommend.
             </p>
           </div>
 
           <h2>Technical Foundation</h2>
           <p>
-            This website demonstrates the power and reliability of the <strong><a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer">country-locale-map</a></strong> npm package. Every country listing, code lookup, and data point comes directly from this trusted library, showcasing its accuracy and completeness. We ensure that all information displayed follows ISO 3166-1 standards and reflects the latest updates from the package maintainers.
+            This website demonstrates the capabilities of the <strong><a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer">country-locale-map</a></strong> npm package. Every country listing, code lookup, and data point comes directly from this library, showcasing its accuracy and completeness. All information displayed follows ISO 3166-1 standards and reflects the latest updates from the package maintainers.
           </p>
 
           <h2>For Developers</h2>
@@ -117,7 +117,7 @@ export default function About() {
           </p>
 
           <p>
-            Thank you for using World Countries and for choosing country-locale-map - the most trusted country code library in the npm ecosystem!
+            Thank you for using World Countries and for considering country-locale-map - a reliable country code library in the npm ecosystem!
           </p>
         </div>
       </article>

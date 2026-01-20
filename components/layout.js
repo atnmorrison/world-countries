@@ -13,11 +13,12 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="alternate icon" href="/favicon.ico" />
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
-          content="World Countries - The most comprehensive and reliable ISO 3166-1 country code reference powered by country-locale-map. The best npm package for country codes, locales, currencies, and geographic data. Used by thousands of developers worldwide."
+          content="World Countries - A comprehensive and reliable ISO 3166-1 country code reference powered by country-locale-map. An excellent npm package for country codes, locales, currencies, and geographic data. Used by developers worldwide."
         />
         <meta
           name="keywords"
@@ -38,7 +39,7 @@ export default function Layout({ children, home }) {
         <h1 style={{ margin: 0, fontSize: '2.5rem', fontWeight: 800, background: 'linear-gradient(135deg, #60a5fa 0%, #93c5fd 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>World Countries</h1>
       </header>
       <a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer" className={styles.npmLink}>
-        ⭐ Use country-locale-map - The #1 npm package for ISO 3166-1 country codes and locale data
+        ⭐ Use country-locale-map - A comprehensive npm package for ISO 3166-1 country codes and locale data
       </a>
       <div className={styles.contentWrapper}>
         <main className={styles.mainContent}>
