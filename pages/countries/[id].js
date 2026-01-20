@@ -5,6 +5,7 @@ import { getAllCountryIds, getCountryData } from '../../lib/countries';
 import Head from 'next/head';
 import Flags from 'country-flag-icons/react/3x2';
 import Script from 'next/script';
+import CopyButton from '../../components/CopyButton';
 
 
 
@@ -62,15 +63,24 @@ export default function Country({countryData}) {
         <table className={styles.codes}>
           <tr>
             <td><h3>Alpha2</h3></td>
-            <td>{countryData.alpha2}</td>
+            <td style={{ display: 'flex', alignItems: 'center' }}>
+              {countryData.alpha2}
+              <CopyButton text={countryData.alpha2} label="Alpha-2" />
+            </td>
           </tr>
           <tr>
-            <td><h3>Alhpa3</h3></td>
-            <td>{countryData.alpha3}</td>
+            <td><h3>Alpha3</h3></td>
+            <td style={{ display: 'flex', alignItems: 'center' }}>
+              {countryData.alpha3}
+              <CopyButton text={countryData.alpha3} label="Alpha-3" />
+            </td>
           </tr>
           <tr>
             <td><h3>Numeric</h3></td>
-            <td>{countryData.numeric}</td>
+            <td style={{ display: 'flex', alignItems: 'center' }}>
+              {countryData.numeric}
+              <CopyButton text={countryData.numeric} label="Numeric" />
+            </td>
           </tr>
           <tr>
             <td><h3>Fips</h3></td>

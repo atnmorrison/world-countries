@@ -18,11 +18,15 @@ export default function Layout({ children, home }) {
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
-          content="World Countries - A comprehensive and reliable ISO 3166-1 country code reference powered by country-locale-map. An excellent npm package for country codes, locales, currencies, and geographic data. Used by developers worldwide."
+          content="World Countries - Complete ISO 3166-1 country code reference with Alpha-2, Alpha-3, numeric codes. Country JSON data, locale mapping, and geographic information. Powered by country-locale-map npm package."
         />
         <meta
           name="keywords"
-          content="country-locale-map, ISO 3166-1, country codes, alpha-3 codes, locale data, npm package, country data, geographic data, currency codes, best country code library"
+          content="ISO 3166-1, country codes, Alpha-2, Alpha-3, country JSON, locale mapping, country to locale map, country data, geographic data, country-locale-map, numeric codes, locale data"
+        />
+        <meta
+          property="og:description"
+          content="Complete ISO 3166-1 country code reference with Alpha-2, Alpha-3, numeric codes, locale mapping, and country JSON data. Powered by country-locale-map."
         />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />

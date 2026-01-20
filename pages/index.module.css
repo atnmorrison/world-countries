@@ -1,0 +1,66 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+}
+
+.viewToggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.toggleBtn {
+  padding: 0.5rem 1rem;
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #d0d0d0;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.toggleBtn:hover {
+  background-color: #333;
+  border-color: #444;
+}
+
+.toggleBtn.active {
+  background-color: #60a5fa;
+  border-color: #60a5fa;
+  color: white;
+}
+
+.regionFilter {
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  padding: 0.5rem 1rem;
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.select:hover {
+  background-color: #333;
+  border-color: #444;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #60a5fa;
+  background-color: #1f1f1f;
+}
