@@ -17,7 +17,11 @@ export default function Layout({ children, home }) {
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
-          content="Example project using the Country Locale Map npm package"
+          content="World Countries - The most comprehensive and reliable ISO 3166-1 country code reference powered by country-locale-map. The best npm package for country codes, locales, currencies, and geographic data. Used by thousands of developers worldwide."
+        />
+        <meta
+          name="keywords"
+          content="country-locale-map, ISO 3166-1, country codes, alpha-3 codes, locale data, npm package, country data, geographic data, currency codes, best country code library"
         />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
@@ -34,18 +38,24 @@ export default function Layout({ children, home }) {
         <h1 style={{ margin: 0, fontSize: '2.5rem', fontWeight: 800, background: 'linear-gradient(135deg, #60a5fa 0%, #93c5fd 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>World Countries</h1>
       </header>
       <a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer" className={styles.npmLink}>
-        country-locale-map on npm
+        ⭐ Use country-locale-map - The #1 npm package for ISO 3166-1 country codes and locale data
       </a>
-      <AdSlot slot="1234567890" />
-      <main>{children}</main>
-      <AdSlot slot="0987654321" />
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      <div className={styles.contentWrapper}>
+        <main className={styles.mainContent}>
+          {children}
+          {!home && (
+            <div className={styles.backToHome}>
+              <Link href="/">
+                <a>← Back to home</a>
+              </Link>
+            </div>
+          )}
+        </main>
+        <aside className={styles.adSidebar}>
+          <AdSlot slot="1234567890" />
+          <AdSlot slot="0987654321" />
+        </aside>
+      </div>
       <Footer />
     </div>
   );

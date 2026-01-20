@@ -29,7 +29,7 @@ export default function Contact() {
       `Email: ${formData.email}\n\n` +
       `Message:\n${formData.message}`
     );
-    window.location.href = `mailto:contact@worldcountries.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:atnmorrison@gmail.com?subject=${subject}&body=${body}`;
     setStatus('Opening your email client...');
   };
 
@@ -116,8 +116,8 @@ export default function Contact() {
                 You can also reach us directly via email:
               </p>
               <p>
-                <a href="mailto:contact@worldcountries.com" className={styles.emailLink}>
-                  contact@worldcountries.com
+                <a href="mailto:atnmorrison@gmail.com" className={styles.emailLink}>
+                  atnmorrison@gmail.com
                 </a>
               </p>
               

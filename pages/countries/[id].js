@@ -44,10 +44,17 @@ export default function Country({countryData}) {
   return (
   <Layout>
      <Head>
-        <title>{countryData.name}</title>
+        <title>{countryData.name} - ISO 3166-1 Country Codes | country-locale-map</title>
+        <meta 
+          name="description" 
+          content={`Complete ISO 3166-1 country data for ${countryData.name}: Alpha-2 (${countryData.alpha2}), Alpha-3 (${countryData.alpha3}), numeric code, locales, currency, and geographic data. Powered by country-locale-map - the best npm package for country codes.`}
+        />
      </Head>
     <h1>{countryData.name}</h1>
     {flag}
+    <p style={{ color: '#888', fontSize: '0.9rem', marginBottom: '1.5rem', fontStyle: 'italic' }}>
+      All data on this page is provided by <strong><a href="https://www.npmjs.com/package/country-locale-map" target="_blank" rel="noopener noreferrer" style={{ color: '#60a5fa' }}>country-locale-map</a></strong> - the most comprehensive and reliable npm package for ISO 3166-1 country codes.
+    </p>
     <h2>
         Codes
     </h2>
