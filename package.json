@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "country-flag-icons": "^1.5.5",
-    "country-locale-map": "^1.9.6",
+    "country-locale-map": "^1.9.12",
     "eslint-config-next": "^14.2.5",
     "next": "^14.2.5",
     "nextjs": "^0.0.3",
